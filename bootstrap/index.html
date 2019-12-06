@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learning bootstrap - software engineering internship 05-12-2019</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<style>
+    #center {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="bg-info">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <a class="navbar-brand text-success" style="font-size: 40px;" href="#">Cytonn</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="font-size: 25px;" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="text-white font-weight-bold my-4 text-center" style="letter-spacing: 5px; font-size: 55px;">
+                Cytonn Foundation
+            </h1>
+            <div class="row d-flex justify-content-between">
+
+                <div class="col-md-5 h4 text-white" id="center">
+                    <p>
+                        Cytonn Foundation is an initiative of Cytonn Investments focused on giving back to the
+                        society
+                        through skill development. We focus on causes that resonate with our values and those that
+                        we
+                        collectively care about. Our main pillars are Entrepreneurship, Training & Mentorship and
+                        Financial
+                        Literacy.
+                    </p>
+
+                </div>
+
+                <div class="col-md-5 card mb-2" style="border-radius: 20px;">
+                    <!-- Default form login -->
+                    <form class="text-center p-5 mb-3" action="#!">
+
+                        <p class="h4 mb-4 text-success">Join Cytonn today, It's Free..</p>
+                        <input type="email" id="defaultSignupFirstname" class="form-control mb-4"
+                            placeholder="First Name">
+                        <input type="email" id="defaultSignupFirstname" class="form-control mb-4"
+                            placeholder="Last Name">
+
+                        <!-- Email -->
+                        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                        <!-- Password -->
+                        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4"
+                            placeholder="Password">
+
+                        <!-- Sign in button -->
+                        <button class="btn btn-success btn-block my-4" type="submit">Create Account</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div style="background-color: whitesmoke;">
+        <div class="container">
+
+            <h1 class="text-center py-4">Cytonn Money Market Fund(CMMF)</h1>
+            <p>
+                A money market fund mainly invests in short-term debt securities with high credit quality such as
+                treasury
+                bills and commercial paper. This fund is ideal for the conservative low-risk investor who leans towards
+                stability and security for capital invested. Interest is calculated on a daily basis, and credited to
+                the
+                client's account net of costs.
+
+            </p>
+            <p>
+
+                Cytonn Money Market Fund (CMMF) is a product of Cytonn Asset Managers Limited (CAML), the regulated
+                affiliate of Cytonn Investments Management Plc. CMMF invests in high-quality interest-bearing
+                investments,
+                fixed deposits, and near cash holdings in the Kenyan market. This is your ideal investment option if you
+                are
+                looking to build up your savings or for cash you intend to use to meet your short term goals.
+            </p>
+
+            <div class="list">
+                <p>Features</p>
+                <ul>
+                    <li>No entry or exit fee is charged.</li>
+                    <li>Interest earned is compounded on a daily basis.</li>
+                    <li>Your capital will remain safe.</li>
+                    <li>You will get competitive rates based on the market.</li>
+                    <li>For first time investors, this would be the best starting point</li>
+
+                </ul>
+            </div>
+            <div class="cost">
+                <p>Customers</p>
+                <table class="table border">
+                    <tr class="bg-success text-white">
+                        <th scope="col">Code</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <th scope="row">324</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">231</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">335</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small bg-success">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a class="text-white mr-5" href="https://cytonn.com/"> Cytonn</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
